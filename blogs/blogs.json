@@ -1,0 +1,14 @@
+{
+  "repo": "devicie",
+  "feeds": [
+    {
+      "source": "https://help.devicie.com/kb",
+      "feed_url": "https://help.devicie.com/kb",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

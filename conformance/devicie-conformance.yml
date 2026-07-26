@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://devicie.com/security-operations
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 audited annually; report available under NDA (security-operations page)
+- id: soc3
+  conforms: true
+  evidence: SOC 3 public report available on request (security-operations page)
+- id: gdpr
+  conforms: true
+  evidence: Complies with EU and UK GDPR (security-operations page)
+- id: ccpa
+  conforms: true
+  evidence: Complies with California Consumer Privacy Act (security-operations page)
+- id: au-privacy-act-1988
+  conforms: true
+  evidence: Complies with Australian Privacy Act 1988 (Cth.) (security-operations page)
+- id: iso-27001
+  conforms: false
+  evidence: Not claimed on the public security-operations page
+- id: hipaa
+  conforms: false
+  evidence: Not claimed on the public security-operations page
+notes: >-
+  Devicie is an Intune-native device-management platform; it publishes no
+  first-party public API/OpenAPI, so cross-cutting API standards (oauth2, oidc,
+  rfc9457, json:api, pagination) are not applicable. Standards captured here are
+  the organizational security/compliance posture it publishes.

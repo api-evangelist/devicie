@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.devicie.com/
+security_page: https://devicie.com/security-operations
+certifications:
+- SOC 2 Type 2
+- SOC 3
+compliance_frameworks:
+- AICPA SOC 2 Trust Services Criteria (security, availability, confidentiality)
+- AICPA SOC 3 (public report)
+- GDPR (EU and UK)
+- Australian Privacy Act 1988 (Cth.)
+- California Consumer Privacy Act (CCPA)
+notes: >-
+  SOC 2 Type 2 is audited annually; report available to customers and partners
+  under NDA. SOC 3 is a public report available on request. Devicie also runs a
+  Vulnerability Disclosure Program (security.report@devicie.com).
+evidence:
+- source: https://trust.devicie.com/
+  kind: trust center (SafeBase-style hosted trust portal, title "Devicie Trust Center")
+- source: https://devicie.com/security-operations
+  keywords: [soc 2 type 2, soc 3, gdpr, ccpa, australian privacy act, vulnerability disclosure]

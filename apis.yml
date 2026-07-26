@@ -1,8 +1,26 @@
 aid: devicie
 name: Devicie
-description: 'Devicie is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Devicie is an Intune-native device management and endpoint security platform that automates the
+  deployment, configuration, patching, and ongoing maintenance of Microsoft Intune at scale for
+  enterprises and managed service providers. Built natively on Microsoft Intune and vendor-agnostic
+  across Windows, macOS, Apple iOS, and Android, Devicie handles application management and patching,
+  tenant configuration with automated remediation, continuous compliance and audit readiness, Modern
+  Work Vitals device visibility, and security vulnerability management. It administers customer tenants
+  through the Microsoft Graph API via an Entra ID enterprise application rather than exposing its own
+  public developer API. Devicie is backed by Insight Partners.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://devicie.com/hubfs/Devicie-Monogram-Rebel.png
 url: https://raw.githubusercontent.com/api-evangelist/devicie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Device Management
+- Endpoint Management
+- Microsoft Intune
+- Endpoint Security
+- Compliance
+- Patch Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,40 @@ maintainers:
 common:
 - type: Website
   url: https://devicie.com/
+- type: Documentation
+  url: https://help.devicie.com/kb
+- type: Support
+  url: https://app.devicie.com/en/support
+- type: HelpCenter
+  url: https://help.devicie.com/kb
+- type: Blog
+  url: https://devicie.com/news
+- type: Login
+  url: https://app.devicie.com/
+- type: TermsOfService
+  url: https://devicie.com/legal
+- type: PrivacyPolicy
+  url: https://devicie.com/privacy-policy
+- type: TrustCenter
+  url: security/devicie-trust-center.yml
+- type: Trust
+  url: https://trust.devicie.com/
+- type: Compliance
+  url: https://devicie.com/security-operations
+- type: Security
+  url: https://devicie.com/security-operations
+- type: Conformance
+  url: conformance/devicie-conformance.yml
+- type: WellKnown
+  url: well-known/devicie-well-known.yml
+- type: SecurityTxt
+  url: well-known/devicie-security.txt
+- type: VulnerabilityDisclosure
+  url: security/devicie-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/devicie-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

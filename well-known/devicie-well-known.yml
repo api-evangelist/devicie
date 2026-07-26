@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on Devicie hosts
+host: https://devicie.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: devicie-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  app.devicie.com/.well-known/security.txt returns 307 (redirect to auth).
+  Devicie does not expose a first-party OpenAPI/OAuth discovery surface; it
+  administers customer Microsoft Intune tenants via Microsoft Graph.
